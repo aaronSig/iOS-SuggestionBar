@@ -4,5 +4,3 @@ SuggestionBar for iOS
 A simple bar that sits on top of the keyboard that can display suggestions. 
 
 Quite similar to how the Android spelling mechanism works.
-
-![Screenshot](https://github.com/aaronSig/iOS-SuggestionBar/raw/master/screenshot.png)
