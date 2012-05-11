@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234EEF31155CB2C000FFC984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234EEF30155CB2C000FFC984 /* UIKit.framework */; };
+		234EEF33155CB2C000FFC984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234EEF32155CB2C000FFC984 /* Foundation.framework */; };
+		234EEF35155CB2C000FFC984 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234EEF34155CB2C000FFC984 /* CoreGraphics.framework */; };
+		234EEF3B155CB2C000FFC984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 234EEF39155CB2C000FFC984 /* InfoPlist.strings */; };
+		234EEF3D155CB2C000FFC984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234EEF3C155CB2C000FFC984 /* main.m */; };
+		234EEF41155CB2C000FFC984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234EEF40155CB2C000FFC984 /* AppDelegate.m */; };
+		234EEF44155CB2C000FFC984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234EEF43155CB2C000FFC984 /* ViewController.m */; };
+		234EEF47155CB2C000FFC984 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234EEF45155CB2C000FFC984 /* ViewController.xib */; };
+		234EEF52155CB40600FFC984 /* SuggestionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 234EEF51155CB40600FFC984 /* SuggestionBar.m */; };
+		234EEF57155CBFB600FFC984 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234EEF56155CBFB600FFC984 /* QuartzCore.framework */; };
+		234EEF5B155CC02500FFC984 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234EEF5A155CC02500FFC984 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		234EEF2C155CB2C000FFC984 /* SuggestionBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuggestionBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234EEF30155CB2C000FFC984 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		234EEF32155CB2C000FFC984 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		234EEF34155CB2C000FFC984 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		234EEF38155CB2C000FFC984 /* SuggestionBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuggestionBar-Info.plist"; sourceTree = "<group>"; };
+		234EEF3A155CB2C000FFC984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		234EEF3C155CB2C000FFC984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		234EEF3E155CB2C000FFC984 /* SuggestionBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuggestionBar-Prefix.pch"; sourceTree = "<group>"; };
+		234EEF3F155CB2C000FFC984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		234EEF40155CB2C000FFC984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		234EEF42155CB2C000FFC984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		234EEF43155CB2C000FFC984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		234EEF46155CB2C000FFC984 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		234EEF50155CB40600FFC984 /* SuggestionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionBar.h; sourceTree = "<group>"; };
+		234EEF51155CB40600FFC984 /* SuggestionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionBar.m; sourceTree = "<group>"; };
+		234EEF56155CBFB600FFC984 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		234EEF5A155CC02500FFC984 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234EEF29155CB2C000FFC984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234EEF35155CB2C000FFC984 /* CoreGraphics.framework in Frameworks */,
+				234EEF57155CBFB600FFC984 /* QuartzCore.framework in Frameworks */,
+				234EEF31155CB2C000FFC984 /* UIKit.framework in Frameworks */,
+				234EEF33155CB2C000FFC984 /* Foundation.framework in Frameworks */,
+				234EEF5B155CC02500FFC984 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234EEF21155CB2BF00FFC984 = {
+			isa = PBXGroup;
+			children = (
+				234EEF56155CBFB600FFC984 /* QuartzCore.framework */,
+				234EEF36155CB2C000FFC984 /* SuggestionBar */,
+				234EEF2F155CB2C000FFC984 /* Frameworks */,
+				234EEF2D155CB2C000FFC984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		234EEF2D155CB2C000FFC984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234EEF2C155CB2C000FFC984 /* SuggestionBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234EEF2F155CB2C000FFC984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234EEF5A155CC02500FFC984 /* QuartzCore.framework */,
+				234EEF30155CB2C000FFC984 /* UIKit.framework */,
+				234EEF32155CB2C000FFC984 /* Foundation.framework */,
+				234EEF34155CB2C000FFC984 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		234EEF36155CB2C000FFC984 /* SuggestionBar */ = {
+			isa = PBXGroup;
+			children = (
+				234EEF3F155CB2C000FFC984 /* AppDelegate.h */,
+				234EEF40155CB2C000FFC984 /* AppDelegate.m */,
+				234EEF42155CB2C000FFC984 /* ViewController.h */,
+				234EEF43155CB2C000FFC984 /* ViewController.m */,
+				234EEF45155CB2C000FFC984 /* ViewController.xib */,
+				234EEF50155CB40600FFC984 /* SuggestionBar.h */,
+				234EEF51155CB40600FFC984 /* SuggestionBar.m */,
+				234EEF37155CB2C000FFC984 /* Supporting Files */,
+			);
+			path = SuggestionBar;
+			sourceTree = "<group>";
+		};
+		234EEF37155CB2C000FFC984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				234EEF38155CB2C000FFC984 /* SuggestionBar-Info.plist */,
+				234EEF39155CB2C000FFC984 /* InfoPlist.strings */,
+				234EEF3C155CB2C000FFC984 /* main.m */,
+				234EEF3E155CB2C000FFC984 /* SuggestionBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234EEF2B155CB2C000FFC984 /* SuggestionBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234EEF4A155CB2C000FFC984 /* Build configuration list for PBXNativeTarget "SuggestionBar" */;
+			buildPhases = (
+				234EEF28155CB2C000FFC984 /* Sources */,
+				234EEF29155CB2C000FFC984 /* Frameworks */,
+				234EEF2A155CB2C000FFC984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuggestionBar;
+			productName = SuggestionBar;
+			productReference = 234EEF2C155CB2C000FFC984 /* SuggestionBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234EEF23155CB2BF00FFC984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 234EEF26155CB2BF00FFC984 /* Build configuration list for PBXProject "SuggestionBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 234EEF21155CB2BF00FFC984;
+			productRefGroup = 234EEF2D155CB2C000FFC984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234EEF2B155CB2C000FFC984 /* SuggestionBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234EEF2A155CB2C000FFC984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234EEF3B155CB2C000FFC984 /* InfoPlist.strings in Resources */,
+				234EEF47155CB2C000FFC984 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234EEF28155CB2C000FFC984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234EEF3D155CB2C000FFC984 /* main.m in Sources */,
+				234EEF41155CB2C000FFC984 /* AppDelegate.m in Sources */,
+				234EEF44155CB2C000FFC984 /* ViewController.m in Sources */,
+				234EEF52155CB40600FFC984 /* SuggestionBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		234EEF39155CB2C000FFC984 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234EEF3A155CB2C000FFC984 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		234EEF45155CB2C000FFC984 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234EEF46155CB2C000FFC984 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		234EEF48155CB2C000FFC984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		234EEF49155CB2C000FFC984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234EEF4B155CB2C000FFC984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuggestionBar/SuggestionBar-Prefix.pch";
+				INFOPLIST_FILE = "SuggestionBar/SuggestionBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		234EEF4C155CB2C000FFC984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuggestionBar/SuggestionBar-Prefix.pch";
+				INFOPLIST_FILE = "SuggestionBar/SuggestionBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234EEF26155CB2BF00FFC984 /* Build configuration list for PBXProject "SuggestionBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234EEF48155CB2C000FFC984 /* Debug */,
+				234EEF49155CB2C000FFC984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234EEF4A155CB2C000FFC984 /* Build configuration list for PBXNativeTarget "SuggestionBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234EEF4B155CB2C000FFC984 /* Debug */,
+				234EEF4C155CB2C000FFC984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 234EEF23155CB2BF00FFC984 /* Project object */;
+}
