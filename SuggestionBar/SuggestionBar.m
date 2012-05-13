@@ -18,6 +18,7 @@
     frame.size.height = 40;
     frame.size.width = screenRect.size.width + 2;
     frame.origin.x = -1;
+    frame.origin.y = screenRect.size.height;
     
     self = [super initWithFrame:frame];
     if (self) {
@@ -36,6 +37,7 @@
         
         [self.layer insertSublayer:gradient atIndex:0];
     }
+    
     return self;
 }
 
